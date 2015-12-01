@@ -18,10 +18,11 @@ public class HelloWorld {
  /**
   * Lanza un dialogo de mensaje de una línea:
   */
- public static void lanzarMensaje(){
+ /*public static void lanzarMensaje(){
   //En la siguiente línea está la magia (es lo que muestra el mensaje).
   JOptionPane.showMessageDialog(null, "¡Hola mundo!");
- }
+  
+  }
  
  /**
   * Lanza un dialogo de varias líneas:
@@ -31,6 +32,12 @@ public class HelloWorld {
   String nl = System.getProperty("line.separator");
   //Lanzamos el mensaje:
   JOptionPane.showMessageDialog(null, "Hello World!");
+  
+   String nl2 = System.getProperty("line.separator");
+  //Lanzamos el mensaje:
+  JOptionPane.showMessageDialog(null, "TUPAK ES GRANDE Y PODEROSO!");
+  
+  
  }
  
  public static void main(String[] args){
